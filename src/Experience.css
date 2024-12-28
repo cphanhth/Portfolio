@@ -1,0 +1,43 @@
+.experience {
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .experience h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: rgb(151, 189, 162);
+  }
+  
+  .experience .job {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: #282c34;
+  }
+
+  .experience .job:last-child {
+    margin-bottom: 100px;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: #282c34;
+  }
+  
+  .experience .job h2 {
+    font-size: 1.5rem;
+  }
+  
+  .experience .job p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  .experience .job li{
+    display: list-item;
+    font-size: 1rem;
+    margin-left: 10px;
+    list-style-type: circle;
+  }

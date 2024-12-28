@@ -1,0 +1,99 @@
+.about {
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .about .top h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: rgb(151, 189, 162);
+  }
+
+  .about .top ul {
+    justify-content: space-between;
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .about .top ul li{
+    flex-basis: 450px;
+  }
+  
+  .about .top ul li img {
+    border-radius: 20px;
+  }
+
+  .about .top ul li div {
+    justify-content: center;
+    display: flex;
+  }
+
+  .about .top ul li div a img {
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 0px;
+  }
+
+  .about .education h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    text-align: center;
+    color: rgb(151, 189, 162);
+  }
+  
+  .about .education ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .about .education li {
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 20px;
+    border: 1px solid white;
+  }
+  
+  .about .education li h2 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+  }
+  
+  .about .education li p {
+    font-size: 1rem;
+  }
+
+  .about .skills ul {
+    justify-content: center;
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 15px;
+    border-radius: 20px;
+  }
+
+  .about .skills ul:last-child {
+    justify-content: space-evenly;
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 100px;
+  }
+  
+  .about .skills li {
+    display: flex;
+    text-align: center; 
+    margin: 0 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 0px;
+    flex-basis: 200px;
+  }
+
+  .about .skills li img {
+    vertical-align: center;
+    margin-right: 10px;
+  }
+  

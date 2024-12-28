@@ -1,0 +1,36 @@
+.projects {
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .projects h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: rgb(151, 189, 162);
+  }
+  
+  .projects .project {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: #282c34;
+  }
+  
+  .projects .project h2 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+  }
+  
+  .projects .project p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  .projects .project a {
+    color: rgb(151, 189, 162);
+    text-decoration: underline;
+  }
+  
